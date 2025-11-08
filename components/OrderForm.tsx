@@ -39,7 +39,7 @@ const STRINGS: Record<Language, {
 
 // Endpoint resolution: prefer env var, fallback to provided Apps Script URL
 const ORDER_ENDPOINT = (import.meta as any).env?.VITE_ORDER_ENDPOINT 
-  || 'https://script.google.com/macros/s/AKfycbxsNqfhZ1d2FdOBts7o2zCjF2P78JbPT4OxZ5AaWBl7JM-xALyvOhuGbvNGOxLO7ABD/exec';
+  || 'https://script.google.com/macros/s/AKfycbxRokSOq08Nn_tZnAxJRX-IDdqsR6U4GAJO7N-UxxNAEL7YHEoi_l6ADmoc3BlEbghM/exec';
 
 export const OrderForm: React.FC<OrderFormProps> = ({ language }) => {
   const [submitting, setSubmitting] = useState(false);
