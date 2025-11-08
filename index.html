@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oholia | كريم ترطيب طبيعي</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="كريم Oholia – تركيبة طبيعية تمنح بشرتك نعومة وإشراقة تدوم. اكتشفي سر الترطيب العميق بمكونات نباتية نقية.">
+    <meta name="keywords" content="Oholia, كريم ترطيب طبيعي, العناية بالبشرة, بشرة جافة, زيت الأرغان, الألوفيرا, منتجات طبيعية, العناية بالبشرة في الجزائر">
+    <meta name="author" content="Oholia Skincare">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-green': '#4D6A6D',
+              'brand-light-green': '#86A397',
+              'brand-beige': '#F3F0EC',
+              'brand-dark': '#3E362E',
+            },
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+              serif: ['Lora', 'serif'],
+              cairo: ['Cairo', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Remove import maps for React to avoid overriding Vite's module resolution
+         and prevent loading React from a third-party CDN. Vite will resolve
+         dependencies from local node_modules for both dev and build. -->
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
